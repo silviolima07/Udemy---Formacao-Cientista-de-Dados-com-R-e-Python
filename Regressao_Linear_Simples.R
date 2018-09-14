@@ -5,7 +5,7 @@ head(cars)
 cor(cars)
 
 # Criar o modelo
-# Variavel dependente (y) é speed e variavel independente  ou exploratoria (x) dist
+# Variavel dependente (y) é speed e variavel independente  ou explanatoria (x) dist
 modelo = lm(speed ~ dist, data=cars)
 modelo
 plot(modelo)
