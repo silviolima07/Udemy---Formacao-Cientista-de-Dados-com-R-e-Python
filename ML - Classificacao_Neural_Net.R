@@ -47,6 +47,6 @@ resultado
 #
 confusao = table(resultado$class, myiris_teste$Species)
 confusao
-sum(diag(confusao))
+#sum(diag(confusao))
 sum(confusao)
 sum(diag(confusao) * 100 / sum(confusao))
